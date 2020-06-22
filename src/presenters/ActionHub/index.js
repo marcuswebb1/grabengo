@@ -44,7 +44,7 @@ const ActionHub = () => {
               <i className="fas fa-binoculars"></i>
             </div>
             <h6 className="font-weight-normal text-gray mt-4 mb-3">
-              View List
+              View Lists
             </h6>
           </div>
 
