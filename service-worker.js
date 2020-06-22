@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/grabengo/precache-manifest.4de32b850294a0ecadd628c035c5e229.js"
+  "/grabengo/precache-manifest.07683b81d682230e740d2aa5863fa69c.js"
 );
 
 self.addEventListener('message', (event) => {
