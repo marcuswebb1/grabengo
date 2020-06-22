@@ -1,0 +1,19 @@
+.icon-box {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 7px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-box:hover {
+    transition: .3s;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.icon-box i {
+    font-size: 1.5em;
+}

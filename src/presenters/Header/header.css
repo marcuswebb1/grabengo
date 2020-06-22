@@ -1,0 +1,115 @@
+.header {
+    padding-bottom: 35px;
+    background-image: url("../../images/grabengo2.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    background-color: transparent;
+}
+
+.navbar {
+    padding-top: 15px;
+    background-color: #fff
+}
+
+.navbar button {
+    height: 20% !important;
+}
+
+.signUp-btn {
+    background-color: rgba(151, 223, 18, 0.925);
+}
+
+.signUp-btn:hover {
+    background-color: rgb(151, 223, 18);
+}
+
+.navbar:focus-within {
+    transition: .4s;
+    background-color: #fff !important;
+}
+
+/* .navbar:focus-within .navbar-brand, .navbar:focus-within .hamburger {
+    transition: .4s;
+    color: #000 !important;
+    background-color: #fff;
+} */
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-toggler i {
+    /* color: #fff !important; */
+    font-size: 1.5em;
+}
+
+.navbar-collapse > .navbar {
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+.navbar-nav li:hover {
+    transition: .3s;
+    background-color: rgb(192, 192, 192);
+}
+
+/* Extra-small devices (landscape phones, 576px and up) */
+@media (max-width: 358px) {
+
+    .header {
+        min-height: auto;
+    }
+
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+
+    .navbar .btn {
+        font-size: .6em !important;
+    }
+
+    .navbar-toggler {
+        font-size: 1em;
+    }
+
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .header {
+        min-height: auto !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .header {
+        height: 45vh;
+    }
+
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .navbar-brand {
+        color: #000 !important;
+    }
+
+    .collapse {
+        display: flex;
+    }
+
+    .nav-item {
+     margin: 0 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-height: 1195px) {
+    .header {
+        height: auto;
+    }
+}

@@ -1,0 +1,12 @@
+.cnl-wrapper {
+    background-color: rgb(237, 241, 243);
+    height: 100vh
+}
+
+.cnl-wrapper > nav > .back-btn {
+    font-size: 2em;
+}
+.cnl-navbar Link .back-btn {
+    text-decoration: none;
+    font-size: 2em;
+}

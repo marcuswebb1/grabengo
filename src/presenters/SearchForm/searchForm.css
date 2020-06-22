@@ -1,0 +1,36 @@
+.searchForm {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+/* .searchForm form {
+    margin-bottom: 3%;
+}
+
+.searchForm input {
+    width: 85%;
+    height: 100%;
+}
+
+.calendar-btn, .search-btn {
+    background-color: #fff;
+    width: 15%;
+    height: 100%;
+} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .searchForm {
+        height: 200px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .searchForm {
+        height: 100px;
+    }
+}
